@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_myNews"
+            android:icon="@drawable/ic_mynews"
+            android:title="My News"
+
+            />
+        <item
+            android:id="@+id/nav_sportsPreferenceCustomize"
+            android:title="Sports Settings"
+            android:icon="@drawable/ic_sports_settings"
+
+
+            />
+
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/ic_cancel_logout"
+            android:title="Log Out"
+
+            />
+
+    </group>
+
+    <item android:title="Communication">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts_"
+                android:title="Contact"
+
+                />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_with"
+                android:title="Share"
+
+                />
+            <item
+                android:id="@+id/nav_rateUs"
+                android:icon="@drawable/ic_rate_review"
+                android:title="Rate Us"
+
+                />
+
+
+        </menu>
+
+
+
+    </item>
+
+
+
+
+</menu>

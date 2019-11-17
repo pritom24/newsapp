@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp">
+
+    <TableLayout
+        android:padding="5dp"
+        android:stretchColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="Team 1: "
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/team1Name"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Team 2: "
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/team2Name"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Match Type: "
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/matchTypeText"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Match Status: "
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/matchStatusText"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Date: "
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/matchDateText"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.v7.widget.CardView>
